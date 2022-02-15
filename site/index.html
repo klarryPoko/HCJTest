@@ -4,16 +4,42 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Hello HTML!</title>
+	<style>
+	* {box-sizing: border-box;}
+	body{
+		margin: 0;
+		padding:  0;
+		background-color: lightgray;
+	}
+	#box{
+		background-color: lightskyblue;
+		padding: 10px;
+		border: 5px solid black;
+		margin: 40px;
+		width:  200;
+		height: 950;
+	}
+	#content{
+		background-color: #f0fff0;
+		
+	}
+	h1{
+		margin: 30px;
+	}
+	h2{
+		margin: 30px;
+	}
+	</style>
 </head>
 <body>
    <h1> Hello HTML! CSS and JavaScript are on the way.</h1>
    <h2 style = "color: green; font-size: 20px; text-algin:center;">            	Next we make the changes using browser-sync.</h2>
-   <div>
+   <div >
       Things to know.
-      <ul>
+      <ul  >
       	<li> HTML </li>
       	<li> CSS</li>
-      	<li> JavaScript
+      	<li > JavaScript
       	  <ol>
       	  	<li> First</li>
       	  	<img src ="JavaScript.jpg" width="80" height="60">
@@ -24,6 +50,11 @@
       	  </ol>
       	</li>
       </ul>
+   </div>
+   <div id="box">
+   	<div id="content">
+   		This stuff is all boxed up.
+   	</div>
    </div>
 </body>
 </html>
